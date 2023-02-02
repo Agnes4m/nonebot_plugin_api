@@ -18,23 +18,17 @@ _✨Nonebot2下非常简单的三方api接口操作✨_
 <a href="https://jq.qq.com/?_wv=1027&k=HdjoCcAe">
         <img src="https://img.shields.io/badge/QQ%E7%BE%A4-399365126-orange?style=flat-square" alt="QQ Chat Group">
 </a>
-<a href="https://pypi.python.org/pypi/nonebot_plugin_api">
-        <img src="https://img.shields.io/pypi/v/nonebot_plugin_api.svg" alt="pypi">
-</a>
-<a href="https://pypi.python.org/pypi/nonebot_plugin_api">
-    <img src="https://img.shields.io/pypi/dm/nonebot_plugin_api" alt="pypi download">
-</a>
     <img src="https://img.shields.io/badge/python-3.7+-blue.svg" alt="python">
     <img src="https://img.shields.io/badge/nonebot-2.0.0rc1+-red.svg" alt="NoneBot">
 </div>
 
 ## 使用说明
 
-    目前只支持直接出现结果的图片或者文字
+    在json中只需要输入url和响应指令就可以，这个项目可以自动识别音频、图片、视频并进行输出
 
 ## 操作方法
 
-    启动一次，在bot目录下data/api/api.json，填入url和其他信息格式如下
+启动一次，在bot目录下data/api/api.json，填入url和其他信息格式如下(可能需要重启)
 
         {
                 "data":[
@@ -47,4 +41,9 @@ _✨Nonebot2下非常简单的三方api接口操作✨_
         }
 
 ## 配置项
-        暂无
+暂无
+
+## to do
+
+ -[ ] 支持上传文件
+ -[ ] 支持json解析
